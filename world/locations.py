@@ -1,0 +1,1 @@
+# Location classes and world map

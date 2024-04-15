@@ -1,0 +1,1 @@
+# Central game mechanics and state management
