@@ -1,0 +1,41 @@
+name: Main Branch CI
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v2
+
+    - name: Set up Python 3.12.3
+      uses: actions/setup-python@v2
+      with:
+        python-version: '3.12.3'
+
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install -r requirements.txt
+
+    - name: Validate JSON files
+      run: |
+        # put commands in to validate my JSON files
+
+        cat data\json_data\enemies.json
+        cat data\json_data\items.json
+        cat data\json_data\npcs.json
+        cat data\json_data\player.json
+        cat data\json_data\quests.json
+        cat data\json_data\world.json
+
+    - name: Run tests
+      run: |
+        # put commands in to run tests
+        # like python -m unittest discover -s tests
