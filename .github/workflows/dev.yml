@@ -28,14 +28,15 @@ jobs:
       run: |
         # put commands in to validate my JSON files
 
-        cat data/json_data/enemies.json
-        cat data/json_data/items.json
-        cat data/json_data/npcs.json
-        cat data/json_data/player.json
-        cat data/json_data/quests.json
-        cat data/json_data/world.json
+        jq empty data/json_data/enemies.json
+        jq empty data/json_data/items.json
+        jq empty data/json_data/npcs.json
+        jq empty data/json_data/player.json
+        jq empty data/json_data/quests.json
+        jq empty data/json_data/world.json
 
     - name: Run tests
       run: |
         # put commands in to run tests
-        # like python -m unittest discover -s tests
+
+        python -m unittest discover -s tests
