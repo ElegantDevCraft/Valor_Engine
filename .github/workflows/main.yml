@@ -28,12 +28,12 @@ jobs:
       run: |
         # put commands in to validate my JSON files
 
-        cat data\json_data\enemies.json
-        cat data\json_data\items.json
-        cat data\json_data\npcs.json
-        cat data\json_data\player.json
-        cat data\json_data\quests.json
-        cat data\json_data\world.json
+        cat data/json_data/enemies.json
+        cat data/json_data/items.json
+        cat data/json_data/npcs.json
+        cat data/json_data/player.json
+        cat data/json_data/quests.json
+        cat data/json_data/world.json
 
     - name: Run tests
       run: |
