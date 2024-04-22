@@ -1,4 +1,12 @@
-# Entry point and main game loop
+import random
+import json
+import os
+import sys
+
+import pytextgame
+from rich import console
+
+# Main game loop
 
 def main():
     while True:

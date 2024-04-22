@@ -1,3 +1,4 @@
+from rich import print as rprint
 
 # Scene management and transitions
 

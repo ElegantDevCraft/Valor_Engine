@@ -1,6 +1,8 @@
-# Game state tracking and variables
-
+import os
+import sys
 from entities.player import Player
+
+# Game state tracking and variables
 
 class GameState:
     def __init__(self):

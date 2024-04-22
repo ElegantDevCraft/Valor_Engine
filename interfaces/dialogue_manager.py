@@ -1,3 +1,6 @@
+from rich.console import Console
+from rich.markdown import Markdown
+
 # Dialogue system and NPC interactions
 
 class DialogueManager:

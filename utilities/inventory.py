@@ -1,3 +1,6 @@
+import os
+import sys
+
 # Inventory management
 
 class Inventory:

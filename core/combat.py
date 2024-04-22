@@ -1,3 +1,7 @@
+from pygments import highlight
+from pygments.lexers import PythonLexer
+from pygments.formatters import TerminalFormatter
+
 # Combat system logic
 
 class Combat:
