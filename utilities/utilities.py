@@ -1,3 +1,6 @@
+import os
+import sys
+
 # Miscellaneous utility functions and helpers
 
 def process_input(player_input):
