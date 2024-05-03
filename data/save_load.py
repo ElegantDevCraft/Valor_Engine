@@ -1,9 +1,12 @@
-# Save and load game states
+import json
 
-def save_game(game_state):
-    # Code to save the game state
-    pass
+# This file handles saving and loading game states.
 
-def load_game(file_path):
-    # Code to load the game state
-    pass
+def save_game(game_state, filename='savegame.json'):
+    with open(filename, 'w') as file:
+        json.dump(game_state, file)
+
+def load_game(filename='savegame.json'):
+    with open(filename, 'r') as file:
+        game_state = json.load(file)
+    return game_state

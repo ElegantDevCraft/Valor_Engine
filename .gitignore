@@ -1,2 +1,4 @@
 #Python virtual environment
 valoria_chronicles_dev/
+#Remove stored Python bytecode
+__pycache__/
