@@ -5,13 +5,12 @@ import sys
 
 import pytextgame
 from rich import console
-
-# Main game loop
+from .game_engine import GameEngine
+from ..data.save_load import save_game, load_game
 
 def main():
-    while True:
-        show_current_scene()
-        player_input = get_player_input()
-        process_input(player_input)
-        if check_end_conditions():
-            break
+    engine = GameEngine()
+    engine.start_game()
+
+if __name__ == "__main__":
+    main()
