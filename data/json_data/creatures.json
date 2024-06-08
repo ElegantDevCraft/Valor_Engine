@@ -1,0 +1,88 @@
+{
+    "creatures": [
+      {
+        "id": 1,
+        "name": "Rockjaw",
+        "description": "This creature loves to burrow and tunnel into the earth to eat precious ores with it's large rock-like jaws.",
+        "locations": ["Kra'otu", "Bahla"],
+        "capture_info": {
+          "rate": 30,
+          "conditions": "Only at night",
+          "preferred_bait": "Glimmering Gem"
+        },
+        "stats": {
+          "hp": 20,
+          "attack": 7,
+          "defense": 8,
+          "special attack": 3,
+          "special defense": 4,
+          "speed": 2
+        },
+        "skills": [
+          {
+            "name": "Jaw Bash",
+            "power": 20,
+            "effect": "User smashes their jaw into their target with enough force to shatter bone. May lower target's speed."
+          },
+          {
+            "name": "Burrow",
+            "power": 50,
+            "effect": "User tunnels into the ground and jumps out of the tunnel, crashing into the opponent."
+          }
+        ],
+        "learnset": [
+          {
+            "level": 1,
+            "move": "Boulder Crush"
+          },
+          {
+            "level": 5,
+            "move": "Burrow"
+          }
+        ],
+        "evolutions": [
+          {
+            "level": 30,
+            "to": "Skoulder"
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "name": "Smogbra",
+        "description": "This creature silently sneaks up on prey and sprays toxic fumes into their face, incapacitating them.",
+        "locations": ["Jalorii", "Coorma"],
+        "capture_info": {
+          "rate": 45,
+          "conditions": "When HP is below 50%",
+          "preferred_bait": "Toxic Berry"
+        },
+        "stats": {
+          "hp": 10,
+          "attack": 9,
+          "defense": 3,
+          "special attack": 8,
+          "special defense": 5,
+          "speed": 7
+        },
+        "skills": [
+          {
+            "name": "Toxic Fumes",
+            "power": 10,
+            "effect": "User sprays a toxic gas at their oponent, poisoning them."
+          },
+          {
+            "name": "Static Bite",
+            "power": 20,
+            "effect": "The target is bitten and has venom injected into their body that paralyzes them."
+          }
+        ],
+        "evolutions": [
+          {
+            "item": "Toxic Gem",
+            "to": "Venomist"
+          }
+        ]
+      }
+    ]
+  }

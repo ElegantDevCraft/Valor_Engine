@@ -1,4 +1,7 @@
 # ValoriaChronicles
+
+In development, run the game by running it in debug mode from the main.py file.
+
 This is a game project that I am working on to build my experience as a video game programmer and video game designer.
 
 It is set in a high fantasy world with gods, demons, monsters, with many different kinds of locales.
