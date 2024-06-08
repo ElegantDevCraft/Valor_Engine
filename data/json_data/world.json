@@ -1,0 +1,34 @@
+{
+    "starting_location": "town",
+    "locations": {
+      "town": {
+        "description": "A peaceful town with cobblestone streets and bustling marketplaces.",
+        "actions": ["look", "walk north", "walk east", "walk south", "walk west"],
+        "north": "forest",
+        "east": "river",
+        "south": "fields",
+        "west": "mountains"
+      },
+      "forest": {
+        "description": "A dense forest that whispers secrets of ancient magic.",
+        "actions": ["look", "walk south"],
+        "south": "town"
+      },
+      "river": {
+        "description": "A wide river that flows swiftly, teeming with fish.",
+        "actions": ["look", "walk west"],
+        "west": "town"
+      },
+      "fields": {
+        "description": "Expansive fields of golden wheat swaying in the wind.",
+        "actions": ["look", "walk north"],
+        "north": "town"
+      },
+      "mountains": {
+        "description": "Majestic mountains that touch the sky, home to dragons and dwarves.",
+        "actions": ["look", "walk east"],
+        "east": "town"
+      }
+    }
+  }
+  

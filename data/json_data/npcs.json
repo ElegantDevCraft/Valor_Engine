@@ -1,0 +1,20 @@
+{
+    "Shop Attendant": { 
+        "dialogues": [
+            "Welcome to my shop!",
+            "We have the finest goods in the land."
+        ],
+        "quests": [
+        ],
+        "shop": {
+        }
+    },
+    "Citizen One": { 
+        "dialogues": [
+            "Hey, how are you doing?",
+            "This city has an amazing restaurant"
+        ],
+        "quests": [
+        ]
+    }
+}

@@ -2,3 +2,5 @@
 valoria_chronicles_dev/
 #Remove stored Python bytecode
 __pycache__/
+#User specific settings for Visual Studio Code
+.vscode/

@@ -1,0 +1,25 @@
+{
+    "enemies": [
+      {
+        "id": 1,
+        "type": "wild creature",
+        "ai_pattern": "aggressive",
+        "moves": [
+        ],
+        "encounter_rate": 15,
+        "locations": [
+        ]
+      },
+      {
+        "id": 2,
+        "type": "trainer",
+        "name": "Guardian of the Grove",
+        "creatures": [
+        ],
+        "strategy": "defensive",
+        "dialogue": [
+        ]
+      }
+    ]
+  }
+  
