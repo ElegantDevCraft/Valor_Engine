@@ -1,34 +1,43 @@
 {
-    "starting_location": "town",
-    "locations": {
-      "town": {
-        "description": "A peaceful town with cobblestone streets and bustling marketplaces.",
-        "actions": ["look", "walk north", "walk east", "walk south", "walk west"],
+  "starting_location": "town",
+  "locations": {
+    "town": {
+      "description": "A peaceful town with cobblestone streets and bustling marketplaces.",
+      "actions": ["look", "walk"],
+      "directions": {
         "north": "forest",
         "east": "river",
         "south": "fields",
         "west": "mountains"
-      },
-      "forest": {
-        "description": "A dense forest that whispers secrets of ancient magic.",
-        "actions": ["look", "walk south"],
+      }
+    },
+    "forest": {
+      "description": "A dense forest that whispers secrets of ancient magic.",
+      "actions": ["look", "walk"],
+      "directions": {
         "south": "town"
-      },
-      "river": {
-        "description": "A wide river that flows swiftly, teeming with fish.",
-        "actions": ["look", "walk west"],
+      }
+    },
+    "river": {
+      "description": "A wide river that flows swiftly, teeming with fish.",
+      "actions": ["look", "walk"],
+      "directions": {
         "west": "town"
-      },
-      "fields": {
-        "description": "Expansive fields of golden wheat swaying in the wind.",
-        "actions": ["look", "walk north"],
+      }
+    },
+    "fields": {
+      "description": "Expansive fields of golden wheat swaying in the wind.",
+      "actions": ["look", "walk"],
+      "directions": {
         "north": "town"
-      },
-      "mountains": {
-        "description": "Majestic mountains that touch the sky, home to dragons and dwarves.",
-        "actions": ["look", "walk east"],
+      }
+    },
+    "mountains": {
+      "description": "Majestic mountains that touch the sky, home to dragons and dwarves.",
+      "actions": ["look", "walk"],
+      "directions": {
         "east": "town"
       }
     }
   }
-  
+}

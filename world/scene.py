@@ -1,12 +1,15 @@
+# scene.py
 from rich import print as rprint
 from .locations import Location
 
 # Scene management and transitions
-class Scene:
-    def __init__(self, description, interactions):
-        self.description = description
-        self.interactions = interactions  # This should be a dictionary of possible interactions
+class Scene(Location):
+    def __init__(self, name, description, actions, interactions):
+        super().__init__(name, description, actions)
+        self.interactions = interactions
+
+    def connect_scene(self, direction, scene):
+        self.connected_locations[direction] = scene
 
     def describe(self):
-        return self.description
-
+        return f"{self.name}: {self.description}"
