@@ -1,0 +1,38 @@
+{
+    "Hydro": {
+      "strong_against": ["Pyro", "Earth"],
+      "resistant_to": ["Pyro", "Tundra", "Hydro"],
+      "weak_against": ["Volt", "Meadow"],
+      "immune_to": []
+    },
+    "Pyro": {
+      "strong_against": ["Meadow", "Tundra", "Alloy", "Arthro"],
+      "resistant_to": ["Pyro", "Meadow", "Arthro"],
+      "weak_against": ["Hydro", "Earth"],
+      "immune_to": ["Tundra"]
+    },
+    "Earth": {
+      "strong_against": ["Sky", "Volt", "Pyro", "Arthro"],
+      "resistant_to": ["Sky", "Putrid"],
+      "weak_against": ["Hydro", "Tundra", "Meadow"],
+      "immune_to": ["Volt"]
+    },
+    "Sky": {
+      "strong_against": ["Putrid", "Meadow", "Arthro"],
+      "resistant_to": ["Earth", "Combat", "Arthro"],
+      "weak_against": ["Volt"],
+      "immune_to": ["Earth"]
+    },
+    "Arthro": {
+      "strong_against": ["Meadow", "Malice"],
+      "resistant_to": ["Meadow", "Combat", "Earth"],
+      "weak_against": ["Pyro", "Sky", "Tundra"],
+      "immune_to": []
+    },
+    "Balance": {
+      "strong_against": [],
+      "resistant_to": [],
+      "weak_against": [],
+      "immune_to": ["Arcane", "Malice"]
+    }
+  }
