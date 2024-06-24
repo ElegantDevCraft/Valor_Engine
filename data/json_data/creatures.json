@@ -3,6 +3,7 @@
       {
         "id": 1,
         "name": "Rockjaw",
+        "type": "Earth",
         "description": "This creature loves to burrow and tunnel into the earth to eat precious ores with it's large rock-like jaws.",
         "locations": ["Kra'otu", "Bahla"],
         "capture_info": {
@@ -50,6 +51,7 @@
       {
         "id": 2,
         "name": "Smogbra",
+        "type": "Putrid",
         "description": "This creature silently sneaks up on prey and sprays toxic fumes into their face, incapacitating them.",
         "locations": ["Jalorii", "Coorma"],
         "capture_info": {
